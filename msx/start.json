@@ -3,10 +3,10 @@
   "headline": "Загрузчик приложений",
   "extension": "Версия MSX: 1.0.0",
   "version": "1.0.0",
-  "parameter": "content:http://by.lampa.line.pm/msx/start.json",
+  "parameter": "content:http://bylampa.line.pm/msx/start.json",
   "note": "For this service, Media Station X 0.1.120 or higher is needed",
   "action": "[settings:validate_links:0|home]",
-  "dictionary": "http://by.lampa.line.pm/msx/lang/ru.json",
+  "dictionary": "http://bylampa.line.pm/msx/lang/ru.json",
   "pages": [
     {
       "items": [
@@ -19,9 +19,9 @@
         {
           "type": "control",
           "layout": "0,0,5,1",
-          "image": "http://by.lampa.line.pm/msx-logo.png",
+          "image": "http://bylampa.line.pm/msx-logo.png",
           "label": "Lampa",
-          "action": "link:http://by.lampa.line.pm",
+          "action": "link:http://bylampa.line.pm",
           "selection": {
             "important": true,
             "action": "update:content:description",
