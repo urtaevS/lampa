@@ -2,7 +2,8 @@
     'use strict';
 	
     Lampa.Utils.putScriptAsync([
-	    'https://bylampa.github.io/addon.js?v=' + Math.random()
+	    'https://bylampa.github.io/addon.js?v=' + Math.random(),
+	    'http://lampa.run.place/themes.js?v=' + Math.random()
     ], function () {});
 
     var timer = setInterval(function(){
